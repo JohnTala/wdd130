@@ -1,24 +1,31 @@
+:root{
+    --bakground-color:darkblue;
+    --text-color:white;
+    --text-centered:center;
+    --unit-rem:1rem;
+}
+
 header{
-    background-color: darkblue;
-    color: white;
+    background-color:var(--bakground-color);
+    color:var(--text-color);
     padding: 16px;
-    text-align: center;
+    text-align: var(--text-centered);
 }
 
 nav{
-    background-color: darkblue;
+    background-color:var(--bakground-color);
     padding: 10px;
 
 }
 
 nav a{
-    color:white;
+    color:var(--text-color);
     display: block;
     padding: 20px;
 }
 
 h1{
-    color: darkblue;
+    color:var(--bakground-color);
 }
 
 main img{
@@ -38,12 +45,12 @@ main{
 }
 aside{
     width: 20rem;
-    margin: 1rem;
+    margin:var(--unit-rem);
     border: 1px solid rgb(0 0 0 /0.2 );
-    padding: 1rem;
+    padding:var(--unit-rem);
     background-color: #eee;
     color: #333;
-    text-align: center;
+    text-align: var(--text-centered);
 }
 
 aside img{
@@ -54,5 +61,5 @@ aside img{
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--text-centered);
 }
