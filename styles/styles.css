@@ -1,9 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root{
     --bakground-color:darkblue;
     --text-color:white;
     --text-centered:center;
     --unit-rem:1rem;
 }
+
+
 
 header{
     background-color:var(--bakground-color);
@@ -34,23 +41,26 @@ main img{
     border:1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 var(--unit-rem) var(--unit-rem);
 }
 
 p{
-    padding: 0;
+    margin: var(--unit-rem);
 }
 
 main{
     max-width: 840px;
 }
 aside{
-    width: 20rem;
+    width: 20em;
     margin:var(--unit-rem);
     border: 1px solid rgb(0 0 0 /0.2 );
     padding:var(--unit-rem);
     background-color: #eee;
     color: #333;
     text-align: var(--text-centered);
+    position: relative;
 }
 
 aside img{
@@ -58,8 +68,27 @@ aside img{
     height: auto;
 }
 
+aside h2{
+    position: absolute;
+    top:35px;
+    left:100px
+}
+
 footer{
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: var(--text-centered);
+}
+/*Class Selectors*/
+.box{
+    margin:var(--unit-rem);
+    border:1px solid rgb(0 ,0 ,0 , .1);
+    padding:var(--unit-rem);
+    background-color: #ddd;
+    color: #000;
+
+}
+
+.indent{
+    padding: 2rem;
 }
