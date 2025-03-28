@@ -52,20 +52,16 @@ section img{
 }
 /*Class Selectors*/
 /*https://coolors.co/ffffff-639fab-bbcde5-e08dac-0e1c36*/
-<<<<<<< HEAD
+
 .hero{
     position: relative;
 }
-=======
-
->>>>>>> 157d357f38ce64b0293195ff1f617c6e6085af41
  
 .hero img{
     display: block;
     width: 100%;
     height: auto;
-<<<<<<< HEAD
-     margin: auto var(--unit-rem); 
+    margin: auto var(--unit-rem); 
 }
 
 .hero article{
@@ -77,7 +73,6 @@ section img{
     height: 8.2rem;
     position: absolute;
     top:45%;
-=======
     position: relative;
     margin: auto var(--unit-rem);
 }
@@ -87,16 +82,11 @@ section img{
     position: absolute;
     top:60%;
     left:35%;
->>>>>>> 157d357f38ce64b0293195ff1f617c6e6085af41
 }
 
 .hero h1{
     position: absolute;
-<<<<<<< HEAD
     top:25%;
-=======
-    top:45%;
->>>>>>> 157d357f38ce64b0293195ff1f617c6e6085af41
     left:35%;
     color:var(--primary);
     
@@ -108,9 +98,7 @@ section img{
     float: right;
     margin-right:3px;
 }
-<<<<<<< HEAD
 
-=======
 .hero article{
     background-color: var(--accent-2);
     left: 18%;
@@ -119,7 +107,6 @@ section img{
     width: 60%;
     height: 8.2rem;
 }
->>>>>>> 157d357f38ce64b0293195ff1f617c6e6085af41
 
 
 .sociallinks a{
