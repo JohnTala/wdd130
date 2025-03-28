@@ -80,13 +80,13 @@ section img{
 
 .hero article{
     position: absolute;
-    top:60%;
+    top:40%;
     left:35%;
 }
 
 .hero h1{
     position: absolute;
-    top:25%;
+    top:12%;
     left:35%;
     color:var(--primary);
     
